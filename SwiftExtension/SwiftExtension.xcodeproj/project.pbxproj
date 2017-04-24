@@ -15,6 +15,7 @@
 		E8D91A9B1EAC71050072AF6A /* Range.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D91A9A1EAC71050072AF6A /* Range.swift */; };
 		E8D91A9E1EAC85DC0072AF6A /* Computed.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D91A9D1EAC85DC0072AF6A /* Computed.swift */; };
 		E8D91ADD1EADF9860072AF6A /* Regex.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D91ADC1EADF9860072AF6A /* Regex.swift */; };
+		E8D91AE01EADFAE50072AF6A /* Jsonify.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D91ADF1EADFAE50072AF6A /* Jsonify.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		E8D91A9A1EAC71050072AF6A /* Range.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Range.swift; sourceTree = "<group>"; };
 		E8D91A9D1EAC85DC0072AF6A /* Computed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Computed.swift; sourceTree = "<group>"; };
 		E8D91ADC1EADF9860072AF6A /* Regex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Regex.swift; sourceTree = "<group>"; };
+		E8D91ADF1EADFAE50072AF6A /* Jsonify.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Jsonify.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 		E8D91A981EAC70DA0072AF6A /* Foundation */ = {
 			isa = PBXGroup;
 			children = (
+				E8D91ADE1EADFAD60072AF6A /* JSON */,
 				E8D91ADB1EADF97B0072AF6A /* Regex */,
 				E8D91A9C1EAC85B90072AF6A /* Date */,
 				E8D91A991EAC70EB0072AF6A /* String */,
@@ -104,6 +107,14 @@
 				E8D91ADC1EADF9860072AF6A /* Regex.swift */,
 			);
 			path = Regex;
+			sourceTree = "<group>";
+		};
+		E8D91ADE1EADFAD60072AF6A /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				E8D91ADF1EADFAE50072AF6A /* Jsonify.swift */,
+			);
+			path = JSON;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -182,6 +193,7 @@
 				E8D91ADD1EADF9860072AF6A /* Regex.swift in Sources */,
 				E8D91A891EAC70520072AF6A /* ViewController.swift in Sources */,
 				E8D91A9E1EAC85DC0072AF6A /* Computed.swift in Sources */,
+				E8D91AE01EADFAE50072AF6A /* Jsonify.swift in Sources */,
 				E8D91A871EAC70520072AF6A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
