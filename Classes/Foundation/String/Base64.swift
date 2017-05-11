@@ -25,7 +25,7 @@ extension String {
     
     
     /// base64 encoded of string
-    var base64: String {
+    public var base64: String {
         let plainData = (self as NSString).data(using: String.Encoding.utf8.rawValue)
         let base64String = plainData!.base64EncodedString(options: NSData.Base64EncodingOptions(rawValue: 0))
         return base64String
