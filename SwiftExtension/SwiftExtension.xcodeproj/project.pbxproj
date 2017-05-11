@@ -12,6 +12,10 @@
 		E888E73F1EC4A6DA00A202B5 /* String+Format.swift in Sources */ = {isa = PBXBuildFile; fileRef = E888E73E1EC4A6DA00A202B5 /* String+Format.swift */; };
 		E888E7411EC4AA3E00A202B5 /* String+Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = E888E7401EC4AA3E00A202B5 /* String+Size.swift */; };
 		E888E7431EC4AD5A00A202B5 /* String+Value.swift in Sources */ = {isa = PBXBuildFile; fileRef = E888E7421EC4AD5A00A202B5 /* String+Value.swift */; };
+		E888E7451EC4B0B300A202B5 /* String+Attribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = E888E7441EC4B0B300A202B5 /* String+Attribute.swift */; };
+		E888E7471EC4B3B100A202B5 /* String+URL.swift in Sources */ = {isa = PBXBuildFile; fileRef = E888E7461EC4B3B100A202B5 /* String+URL.swift */; };
+		E888E7491EC4B53E00A202B5 /* Date+Figure.swift in Sources */ = {isa = PBXBuildFile; fileRef = E888E7481EC4B53E00A202B5 /* Date+Figure.swift */; };
+		E888E74B1EC4B7BC00A202B5 /* Date+Format.swift in Sources */ = {isa = PBXBuildFile; fileRef = E888E74A1EC4B7BC00A202B5 /* Date+Format.swift */; };
 		E8D91A871EAC70520072AF6A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D91A861EAC70520072AF6A /* AppDelegate.swift */; };
 		E8D91A891EAC70520072AF6A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D91A881EAC70520072AF6A /* ViewController.swift */; };
 		E8D91A8C1EAC70520072AF6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8D91A8A1EAC70520072AF6A /* Main.storyboard */; };
@@ -29,6 +33,10 @@
 		E888E73E1EC4A6DA00A202B5 /* String+Format.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Format.swift"; sourceTree = "<group>"; };
 		E888E7401EC4AA3E00A202B5 /* String+Size.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Size.swift"; sourceTree = "<group>"; };
 		E888E7421EC4AD5A00A202B5 /* String+Value.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Value.swift"; sourceTree = "<group>"; };
+		E888E7441EC4B0B300A202B5 /* String+Attribute.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Attribute.swift"; sourceTree = "<group>"; };
+		E888E7461EC4B3B100A202B5 /* String+URL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+URL.swift"; sourceTree = "<group>"; };
+		E888E7481EC4B53E00A202B5 /* Date+Figure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Figure.swift"; sourceTree = "<group>"; };
+		E888E74A1EC4B7BC00A202B5 /* Date+Format.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Format.swift"; sourceTree = "<group>"; };
 		E8D91A831EAC70520072AF6A /* SwiftExtension.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftExtension.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8D91A861EAC70520072AF6A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E8D91A881EAC70520072AF6A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -104,6 +112,8 @@
 				E888E73E1EC4A6DA00A202B5 /* String+Format.swift */,
 				E888E7401EC4AA3E00A202B5 /* String+Size.swift */,
 				E888E7421EC4AD5A00A202B5 /* String+Value.swift */,
+				E888E7441EC4B0B300A202B5 /* String+Attribute.swift */,
+				E888E7461EC4B3B100A202B5 /* String+URL.swift */,
 			);
 			path = String;
 			sourceTree = "<group>";
@@ -112,6 +122,8 @@
 			isa = PBXGroup;
 			children = (
 				E8D91A9D1EAC85DC0072AF6A /* Date+Computed.swift */,
+				E888E7481EC4B53E00A202B5 /* Date+Figure.swift */,
+				E888E74A1EC4B7BC00A202B5 /* Date+Format.swift */,
 			);
 			path = Date;
 			sourceTree = "<group>";
@@ -206,15 +218,19 @@
 			files = (
 				E8D91A9B1EAC71050072AF6A /* String+Range.swift in Sources */,
 				E8D91ADD1EADF9860072AF6A /* Regex.swift in Sources */,
+				E888E7471EC4B3B100A202B5 /* String+URL.swift in Sources */,
 				E888E73B1EC4A33F00A202B5 /* String+Base64.swift in Sources */,
 				E8D91A891EAC70520072AF6A /* ViewController.swift in Sources */,
 				E8D91A9E1EAC85DC0072AF6A /* Date+Computed.swift in Sources */,
+				E888E74B1EC4B7BC00A202B5 /* Date+Format.swift in Sources */,
 				E8D91AE01EADFAE50072AF6A /* Jsonify.swift in Sources */,
 				E888E7431EC4AD5A00A202B5 /* String+Value.swift in Sources */,
 				E888E73D1EC4A59200A202B5 /* String+Subscript.swift in Sources */,
 				E888E7411EC4AA3E00A202B5 /* String+Size.swift in Sources */,
 				E8D91A871EAC70520072AF6A /* AppDelegate.swift in Sources */,
+				E888E7491EC4B53E00A202B5 /* Date+Figure.swift in Sources */,
 				E888E73F1EC4A6DA00A202B5 /* String+Format.swift in Sources */,
+				E888E7451EC4B0B300A202B5 /* String+Attribute.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

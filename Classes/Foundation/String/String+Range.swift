@@ -14,7 +14,6 @@ extension String {
         return self.characters.count
     }
     
-    
     /// 全部字符串的Range信息
     public var fullRange: Range<String.Index> {
         return startIndex ..< endIndex
