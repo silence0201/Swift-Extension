@@ -9,14 +9,19 @@
 import Foundation
 
 extension String {
+    /// 字符串长度
+    public var length: Int {
+        return self.characters.count
+    }
+    
     
     /// 全部字符串的Range信息
-    var fullRange: Range<String.Index> {
+    public var fullRange: Range<String.Index> {
         return startIndex ..< endIndex
     }
     
     /// 全部字符串的NSRange信息
-    var fullNSRange: NSRange {
+    public var fullNSRange: NSRange {
         return NSRange(location: 0, length: characters.count)
     }
     

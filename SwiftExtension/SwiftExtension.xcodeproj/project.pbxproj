@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E888E73B1EC4A33F00A202B5 /* Base64.swift in Sources */ = {isa = PBXBuildFile; fileRef = E888E73A1EC4A33F00A202B5 /* Base64.swift */; };
 		E8D91A871EAC70520072AF6A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D91A861EAC70520072AF6A /* AppDelegate.swift */; };
 		E8D91A891EAC70520072AF6A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D91A881EAC70520072AF6A /* ViewController.swift */; };
 		E8D91A8C1EAC70520072AF6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8D91A8A1EAC70520072AF6A /* Main.storyboard */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E888E73A1EC4A33F00A202B5 /* Base64.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Base64.swift; sourceTree = "<group>"; };
 		E8D91A831EAC70520072AF6A /* SwiftExtension.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftExtension.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8D91A861EAC70520072AF6A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E8D91A881EAC70520072AF6A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -89,6 +91,7 @@
 			isa = PBXGroup;
 			children = (
 				E8D91A9A1EAC71050072AF6A /* Range.swift */,
+				E888E73A1EC4A33F00A202B5 /* Base64.swift */,
 			);
 			path = String;
 			sourceTree = "<group>";
@@ -191,6 +194,7 @@
 			files = (
 				E8D91A9B1EAC71050072AF6A /* Range.swift in Sources */,
 				E8D91ADD1EADF9860072AF6A /* Regex.swift in Sources */,
+				E888E73B1EC4A33F00A202B5 /* Base64.swift in Sources */,
 				E8D91A891EAC70520072AF6A /* ViewController.swift in Sources */,
 				E8D91A9E1EAC85DC0072AF6A /* Computed.swift in Sources */,
 				E8D91AE01EADFAE50072AF6A /* Jsonify.swift in Sources */,
