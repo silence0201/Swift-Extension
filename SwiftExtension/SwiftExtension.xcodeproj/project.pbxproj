@@ -16,6 +16,7 @@
 		E888E7471EC4B3B100A202B5 /* String+URL.swift in Sources */ = {isa = PBXBuildFile; fileRef = E888E7461EC4B3B100A202B5 /* String+URL.swift */; };
 		E888E7491EC4B53E00A202B5 /* Date+Figure.swift in Sources */ = {isa = PBXBuildFile; fileRef = E888E7481EC4B53E00A202B5 /* Date+Figure.swift */; };
 		E888E74B1EC4B7BC00A202B5 /* Date+Format.swift in Sources */ = {isa = PBXBuildFile; fileRef = E888E74A1EC4B7BC00A202B5 /* Date+Format.swift */; };
+		E888E7531EC4BD2800A202B5 /* AppInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E888E7521EC4BD2800A202B5 /* AppInfo.swift */; };
 		E8D91A871EAC70520072AF6A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D91A861EAC70520072AF6A /* AppDelegate.swift */; };
 		E8D91A891EAC70520072AF6A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D91A881EAC70520072AF6A /* ViewController.swift */; };
 		E8D91A8C1EAC70520072AF6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8D91A8A1EAC70520072AF6A /* Main.storyboard */; };
@@ -37,6 +38,7 @@
 		E888E7461EC4B3B100A202B5 /* String+URL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+URL.swift"; sourceTree = "<group>"; };
 		E888E7481EC4B53E00A202B5 /* Date+Figure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Figure.swift"; sourceTree = "<group>"; };
 		E888E74A1EC4B7BC00A202B5 /* Date+Format.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Format.swift"; sourceTree = "<group>"; };
+		E888E7521EC4BD2800A202B5 /* AppInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppInfo.swift; sourceTree = "<group>"; };
 		E8D91A831EAC70520072AF6A /* SwiftExtension.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftExtension.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8D91A861EAC70520072AF6A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E8D91A881EAC70520072AF6A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -61,6 +63,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E888E7511EC4BD1000A202B5 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				E888E7521EC4BD2800A202B5 /* AppInfo.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
 		E8D91A7A1EAC70520072AF6A = {
 			isa = PBXGroup;
 			children = (
@@ -94,6 +104,7 @@
 		E8D91A981EAC70DA0072AF6A /* Foundation */ = {
 			isa = PBXGroup;
 			children = (
+				E888E7511EC4BD1000A202B5 /* App */,
 				E8D91ADE1EADFAD60072AF6A /* JSON */,
 				E8D91ADB1EADF97B0072AF6A /* Regex */,
 				E8D91A9C1EAC85B90072AF6A /* Date */,
@@ -229,6 +240,7 @@
 				E888E7411EC4AA3E00A202B5 /* String+Size.swift in Sources */,
 				E8D91A871EAC70520072AF6A /* AppDelegate.swift in Sources */,
 				E888E7491EC4B53E00A202B5 /* Date+Figure.swift in Sources */,
+				E888E7531EC4BD2800A202B5 /* AppInfo.swift in Sources */,
 				E888E73F1EC4A6DA00A202B5 /* String+Format.swift in Sources */,
 				E888E7451EC4B0B300A202B5 /* String+Attribute.swift in Sources */,
 			);

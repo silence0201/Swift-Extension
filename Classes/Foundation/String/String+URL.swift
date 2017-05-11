@@ -9,6 +9,7 @@
 import Foundation
 
 extension String  {
+    
     /// Extracts URLS from String
     public var extractURLs: [URL] {
         var urls: [URL] = []
