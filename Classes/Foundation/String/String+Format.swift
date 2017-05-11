@@ -9,6 +9,22 @@
 import Foundation
 
 extension String {
+    init(_ value: Float, precision: Int) {
+        let nFormatter = NumberFormatter()
+        nFormatter.numberStyle = .decimal
+        nFormatter.maximumFractionDigits = precision
+        self = nFormatter.string(from: NSNumber(value: value))!
+    }
+    
+    init(_ value: Double, precision: Int) {
+        let nFormatter = NumberFormatter()
+        nFormatter.numberStyle = .decimal
+        nFormatter.maximumFractionDigits = precision
+        self = nFormatter.string(from: NSNumber(value: value))!
+    }
+}
+
+extension String {
     /// Capitalizes first character of String
     public mutating func capitalizeFirst() {
         guard characters.count > 0 else { return }
