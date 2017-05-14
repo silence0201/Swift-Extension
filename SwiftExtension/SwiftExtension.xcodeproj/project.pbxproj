@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E843A5751EC8481F00A9E36D /* Bridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = E843A5741EC8481F00A9E36D /* Bridge.swift */; };
 		E888E73B1EC4A33F00A202B5 /* String+Base64.swift in Sources */ = {isa = PBXBuildFile; fileRef = E888E73A1EC4A33F00A202B5 /* String+Base64.swift */; };
 		E888E73D1EC4A59200A202B5 /* String+Subscript.swift in Sources */ = {isa = PBXBuildFile; fileRef = E888E73C1EC4A59200A202B5 /* String+Subscript.swift */; };
 		E888E73F1EC4A6DA00A202B5 /* String+Format.swift in Sources */ = {isa = PBXBuildFile; fileRef = E888E73E1EC4A6DA00A202B5 /* String+Format.swift */; };
@@ -29,6 +30,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E843A5741EC8481F00A9E36D /* Bridge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bridge.swift; sourceTree = "<group>"; };
 		E888E73A1EC4A33F00A202B5 /* String+Base64.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Base64.swift"; sourceTree = "<group>"; };
 		E888E73C1EC4A59200A202B5 /* String+Subscript.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Subscript.swift"; sourceTree = "<group>"; };
 		E888E73E1EC4A6DA00A202B5 /* String+Format.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Format.swift"; sourceTree = "<group>"; };
@@ -63,6 +65,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E843A5731EC8481100A9E36D /* Bridge */ = {
+			isa = PBXGroup;
+			children = (
+				E843A5741EC8481F00A9E36D /* Bridge.swift */,
+			);
+			path = Bridge;
+			sourceTree = "<group>";
+		};
 		E888E7511EC4BD1000A202B5 /* App */ = {
 			isa = PBXGroup;
 			children = (
@@ -104,6 +114,7 @@
 		E8D91A981EAC70DA0072AF6A /* Foundation */ = {
 			isa = PBXGroup;
 			children = (
+				E843A5731EC8481100A9E36D /* Bridge */,
 				E888E7511EC4BD1000A202B5 /* App */,
 				E8D91ADE1EADFAD60072AF6A /* JSON */,
 				E8D91ADB1EADF97B0072AF6A /* Regex */,
@@ -231,6 +242,7 @@
 				E8D91ADD1EADF9860072AF6A /* Regex.swift in Sources */,
 				E888E7471EC4B3B100A202B5 /* String+URL.swift in Sources */,
 				E888E73B1EC4A33F00A202B5 /* String+Base64.swift in Sources */,
+				E843A5751EC8481F00A9E36D /* Bridge.swift in Sources */,
 				E8D91A891EAC70520072AF6A /* ViewController.swift in Sources */,
 				E8D91A9E1EAC85DC0072AF6A /* Date+Computed.swift in Sources */,
 				E888E74B1EC4B7BC00A202B5 /* Date+Format.swift in Sources */,
